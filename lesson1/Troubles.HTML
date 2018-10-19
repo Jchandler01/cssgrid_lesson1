@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 9</title>
+
+	<!-- The only part of this file you should edit is the text between the style tags below. -->
+	<style type="text/css">
+		body, html {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container{
+			display: grid;
+			grid-template-columns: 2fr 5fr; 
+			grid-template-rows: 50px 1fr;
+			grid-template-areas: 
+
+			"T T"
+			"P I"
+			"P I"; 
+		}
+
+		#Troubles{
+			grid-area: T;
+			background: red;
+		}
+		#Pic{
+			grid-area: I;
+			background: blue;
+		}
+		#Podcast{
+			grid-area: P;
+			background: green;
+		}
+
+		h2 {
+			text-align: center;
+			
+		}
+		
+
+
+	</style>
+
+	<!-- Do NOT edit any code below this line. -->
+</head>
+<body>
+	<div class="container">
+		<div id="Troubles" class="items">
+			<h2>Troubles</h2>
+		</div>
+
+		<div id="Pic" class="items">
+			<img src="http://www.thehotportfolio.com/wp-content/uploads/tahleek_graduation.jpg">
+		</div>
+
+		<div id="Podcast" class="items">
+			<h3>Podcast</h3>
+			<ul>
+				<li>
+				
+					ASMR
+
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</body>
+</html>
